@@ -1,0 +1,24 @@
+.pictures-block{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    color: blanchedalmond;
+
+}
+
+.current-painter-picture{
+    height: 10vw;
+    margin: 5px;
+}
+
+.author-pictures{
+    text-align: center;
+    background-color: rgb(43, 11, 11);
+}
+h3{
+    margin: 0;
+    padding: 0;
+    color: blanchedalmond;
+}

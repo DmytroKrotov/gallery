@@ -1,0 +1,10 @@
+<div class="main-block">
+    <div class="gallery-block">
+        
+        <app-gallery [CurrentPicture]="currentPicture" (currentPainterEvent)="onCurrentPainterChange($event)" [painters]="painters"></app-gallery>
+    </div>
+    <div class="current-author-pictures">
+        <app-painter-gallery (onPictureClick)="getCurrentPictureSrc($event)" [currentPainter]="currentPainter" ></app-painter-gallery>
+    </div>
+    
+</div>

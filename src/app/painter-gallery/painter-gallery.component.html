@@ -1,0 +1,11 @@
+<div class="author-pictures">
+    <h3>Other author's pictures</h3>
+    <div class="pictures-block">
+        
+        @for(item of currentPainter.pictures; track item.name)
+        {
+            <img class="current-painter-picture" (click)="onClick($event)" src="{{item.src}}" alt="">
+        }
+    </div>
+</div>
+

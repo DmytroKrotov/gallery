@@ -1,0 +1,20 @@
+<div>
+    <div class="pictures-block">
+        <div class="left-picture-block">
+            <h2>{{gallery[leftPictureIndex].name}}</h2>
+            
+            <img class="left-picture" (click)="onLeftPictureClick()" src="{{gallery[leftPictureIndex].src}}" alt="">
+        </div>
+        <div class="main-picture-block">
+            <h2>{{gallery[currentPictureIndex].name}}</h2>
+            <img class="main-picture" src="{{gallery[currentPictureIndex].src}}" alt="">
+        </div>
+        <div class="right-picture-block">
+            <h2>{{gallery[rightPictureIndex].name}}</h2>
+            <img class="right-picture" (click)="onRightPictureClick()" src="{{gallery[rightPictureIndex].src}}" alt="">
+        </div>
+    </div>
+    <div class="about-current-picture">
+
+    </div>
+</div>

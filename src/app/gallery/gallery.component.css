@@ -1,0 +1,38 @@
+.pictures-block{
+    display: flex;
+    background-color: rgb(43, 11, 11);
+    color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+.left-picture{
+    height: 300px;
+    opacity: 0.3;
+}
+.main-picture{
+    height: 500px;
+    
+}
+.right-picture{
+    height: 300px;
+    opacity: 0.3;
+}
+.left-picture-block{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.main-picture-block{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.right-picture-block{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
